@@ -345,3 +345,28 @@ span{
     margin-top: 2rem;
     cursor: pointer;
 }
+
+.footer{
+    background-color: var(--secondary-bg-color);
+    padding: 2rem 9%;
+    text-align: center;
+}
+.footer p{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+.footer .social-media a{
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+.footer .social-media a:hover{
+    color: var(--main-color);
+}
+.footer .social-media a i{
+    transition: .3s ease;
+}
+.footer .social-media a:hover i{
+    transform: scale(1.2);
+}
